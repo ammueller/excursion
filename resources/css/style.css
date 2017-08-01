@@ -3,15 +3,39 @@
   text-align: center;
   font-family: verdana;
   font-weight: normal;
+  color: white;
 }
 
-.title1 {
-  font-weight: normal;
+p {
+  font-size: 21px;
+  color: gray;
+}
+
+h1 {
   font-size: 50px;
-  color: white;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 42px;
 }
 
 .download {
   color: aquamarine;
   font-size: 16px;
+}
+
+video {
+  object-fit: contain;
+}
+
+media {
+  max-height: 100%;
+  max-width: 100%;
+  align-content: center;
+}
+
+.footer {
+  text-align: right;
+  color: gray;
 }
